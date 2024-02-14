@@ -3,8 +3,9 @@ package cuentas.clientes;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("--INICIO DE LA APLICACIÓN--");
         operativa_cuenta(0);
-        System.out.println("Fin de la aplicación");
+        System.out.println("--FIN DE LA APLICACIÓN--");
     }
 
     private static void operativa_cuenta(float cantidad) {
